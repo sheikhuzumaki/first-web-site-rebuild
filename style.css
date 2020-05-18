@@ -11,22 +11,7 @@ body{
 	background-color: #3b5998;
 	color: #FFFFFF;
 }
-.header h1{
-	position: relative;
-	bottom: 5px;
-}
-.navbar ul{
-	list-style: none;
-}
-.navbar li{
-	display: inline;
-}
-input [type="button"]{
-	background-color: #3b5998;
-}
-input:hover{
-	color: #3b5998;
-}
+
 .container{
 	
 	padding: 10px;
@@ -59,4 +44,28 @@ footer{
 }
 img{
 	border-radius: 20px;
+}
+.topnav{
+	border-style: solid;
+	background-color:  #3b5998;
+  	overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav img{
+	float: left;
 }
